@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  background-color: #333;
+  color: #f2f2f2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  text-shadow: 2px 6px 1px #000;
+}
+
+.container {
+  width: 600px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.balance {
+  width: 600px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.balance p {
+  font-size: 2rem;
+  text-shadow: 2px 2px 1px #000;
+}
+
+#balance,
+#expenses {
+  background-color: #ffffffa8;
+  color: #000;
+  padding: 10px;
+  box-shadow: 4px 5px 2px #000;
+  border-radius: 5px;
+  border: 2px solid #000;
+}
+
+.balance p#balance {
+  color: rgb(93, 210, 93);
+  box-shadow: none;
+}
+.balance p#expenses {
+  color: rgb(221, 37, 37);
+  box-shadow: none;
+}
+
+.text {
+  padding: 20px 5px;
+  font-size: 1.5rem;
+}
+
+#tracker_transaction {
+  width: 600px;
+  margin-top: 15px;
+}
+
+.note {
+  padding: 5px;
+}
+
+#submit {
+  text-align: center;
+  background: rgb(113, 85, 237);
+  padding: 10px 15px;
+  border: none;
+  font-size: 1rem;
+  color: #f2f2f2;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border-radius: 10px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+#submit:hover,
+.deleteEl:hover {
+  background-color: chartreuse;
+  color: #000;
+}
+
+.history {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  background-color: #857979;
+  margin-top: 5px;
+}
+
+.deleteEl {
+  background-color: red;
+  border: none;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
