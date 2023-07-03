@@ -15,10 +15,10 @@
         <h2>YOUR BALANCE:</h2>
         <p id="balance">₱ 0</p>
       </div>
-      <div id="balance_tracker">
+      <!-- <div id="balance_tracker">
         <h2>YOUR EXPENSES:</h2>
         <p id="expenses">₱ 0</p>
-      </div>
+      </div> -->
     </div>
     <p class="container text">History</p>
     <hr class="container" />
@@ -28,20 +28,24 @@
     <p class="container text">Add new transaction</p>
     <hr class="container" />
     <div class="container" id="tracker_transaction">
-      <label for="transaction_value">Description: </label>
-      <input
-        type="text"
-        name="transaction_value"
-        placeholder="Ex.. Allowance"
-        id="inputDesc"
-      />
-      <label for="transaction_Amount">Amount: </label>
-      <input
-        type="number"
-        name="transaction_Amount"
-        placeholder="Enter your balance"
-        id="inputAmount"
-      />
+      <div>
+        <label for="transaction_value">Description: </label>
+        <input
+          type="text"
+          name="transaction_value"
+          placeholder="Ex.. Allowance"
+          id="inputDesc"
+        />
+      </div>
+      <div>
+        <label for="transaction_Amount">Amount: </label>
+        <input
+          type="number"
+          name="transaction_Amount"
+          placeholder="Enter your balance"
+          id="inputAmount"
+        />
+      </div>
       <p class="note">
         NOTE: put negative (-) for Expenses , Positive (+) for income
       </p>

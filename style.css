@@ -29,7 +29,7 @@ h1 {
   width: 600px;
   margin-top: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   text-align: center;
 }
@@ -61,11 +61,6 @@ h1 {
 .text {
   padding: 20px 5px;
   font-size: 1.5rem;
-}
-
-#tracker_transaction {
-  width: 600px;
-  margin-top: 15px;
 }
 
 .note {
@@ -109,4 +104,23 @@ h1 {
   color: #fff;
   border-radius: 5px;
   cursor: pointer;
+}
+
+#tracker_transaction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
 }
